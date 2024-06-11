@@ -1,4 +1,4 @@
-# New 
+
 # Mr. Roscoe's Ribs and Brisket
 
 ## Overview
