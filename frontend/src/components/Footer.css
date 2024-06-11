@@ -1,0 +1,61 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff;
+    height: 50px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 10px; /* Smaller font size to fit within the height */
+}
+
+.footer-content p {
+    margin: 2px 0; /* Reduce margin to fit text */
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px; /* Smaller gap to fit within the height */
+    margin: 2px 0; /* Reduce margin to fit icons */
+}
+
+.social-media a {
+    margin: 0 5px; /* Reduce margin to fit within the height */
+    fill: #fff; /* White icon color */
+    width: 16px; /* Smaller icon size to fit within the height */
+    height: 16px;
+    transition: all 0.3s ease;
+}
+
+.social-media a:hover {
+    fill: #007bff; /* Blue icon color on hover */
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px; /* Smaller gap to fit within the height */
+}
+
+.info-wrapper a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+    font-size: 10px; /* Smaller font size to fit within the height */
+    transition: all 0.3s ease;
+}
+
+.info-wrapper a:hover {
+    color: #007bff; /* Blue link color on hover */
+}
